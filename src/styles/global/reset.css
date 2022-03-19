@@ -45,6 +45,13 @@ svg {
   display: block;
 }
 
+/* Inherit font colors for anchors, inputs and buttons */
+a,
+button,
+input {
+  color: inherit;
+}
+
 /* Inherit fonts for inputs and buttons */
 input,
 button,
@@ -63,6 +70,10 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
