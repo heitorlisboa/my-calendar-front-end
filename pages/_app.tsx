@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { AuthProvider } from "../src/contexts/AuthContext";
 import type { AppProps } from "next/app";
 
 import "../src/styles/global/index.scss";
@@ -16,7 +17,9 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="MyCalendar é uma aplicação simples de calendário para ajudar na organização das tarefas do dia a dia"
         />
       </Head>
-      <Component {...pageProps} />
+      <AuthProvider>
+        <Component {...pageProps} />
+      </AuthProvider>
     </>
   );
 }
