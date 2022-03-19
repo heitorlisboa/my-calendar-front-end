@@ -1,0 +1,8 @@
+:root {
+  /* COLORS */
+  --text-color: hsl(216, 13%, 20%);
+  --text-color-transparent: hsla(216, 13%, 20%, 0.7);
+
+  /* SIZES */
+  --button-border-radius: 0.5rem;
+}

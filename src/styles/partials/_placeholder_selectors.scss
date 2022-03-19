@@ -1,0 +1,19 @@
+%neu-colors-flat {
+  background: #e5eef7;
+  box-shadow: 5px 5px 10px #c3cad2, -5px -5px 10px #ffffff;
+}
+
+%neu-colors-concave {
+  background: linear-gradient(145deg, #ced6de, #f5ffff);
+  box-shadow: 5px 5px 10px #c3cad2, -5px -5px 10px #ffffff;
+}
+
+%neu-colors-convex {
+  background: linear-gradient(145deg, #f5ffff, #ced6de);
+  box-shadow: 5px 5px 10px #c3cad2, -5px -5px 10px #ffffff;
+}
+
+%neu-colors-pressed {
+  background: #e5eef7;
+  box-shadow: inset 5px 5px 10px #c3cad2, inset -5px -5px 10px #ffffff;
+}

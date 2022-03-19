@@ -1,0 +1,21 @@
+@use "../partials/placeholder_selectors";
+
+.neu-button,
+.neu-button-inset {
+  padding: 0.5rem 1rem;
+  border-radius: var(--button-border-radius);
+}
+
+.neu-button {
+  @extend %neu-colors-flat;
+  transition: transform 200ms;
+
+  &:active {
+    @extend %neu-colors-pressed;
+    transform: scale(0.99);
+  }
+}
+
+.neu-button-inset {
+  @extend %neu-colors-pressed;
+}

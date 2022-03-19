@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  min-width: 100vw;
+  min-height: 100vh;
+  justify-items: center;
+  align-content: center;
+}
+
+.returnButton,
+.submitButton,
+.link {
+  font-weight: bold;
+}
+
+.returnButton {
+  text-decoration: none;
+
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+
+  --padding-inline: 1rem 1.5rem;
+}
+
+.title {
+  margin-block-end: 1rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  min-width: 20rem;
+}
+
+.link {
+  margin-block-start: 1rem;
+}
